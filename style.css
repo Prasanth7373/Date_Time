@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    background-image: url("nathan-dumlao-LPRrEJU2GbQ-unsplash.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div {
+    position: absolute;
+    top: 35vh;
+    left: 35vw;
+    font-size: 3rem;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    width: 30vw;
+    height: 20vh;
+    box-shadow: 5px 5px 10px black;
+    background-image: linear-gradient(to right, rgba(29, 29, 29, 0.925),rgb(102, 102, 102)) ;
+}
+
+.container p{
+    display: inline-block;
+    position: relative;
+    top: -17px;
+    color: rgb(255, 255, 255);
+    background-color: linear-gradient(to right rgba(68, 67, 67, 0.507),rgb(126, 123, 123)) ;
+}
